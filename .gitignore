@@ -1,0 +1,32 @@
+# Dependencies
+node_modules/
+
+# Environment & secrets (never commit)
+.env
+.env.*
+**/.env
+**/.env.*
+
+# User requested: do not track example env files
+.env.example
+**/.env.example
+
+# Production builds
+build/
+dist/
+
+# Logs & debug
+npm-debug.log*
+yarn-debug.log*
+yarn-error.log*
+*.log
+
+# OS & IDE
+.DS_Store
+Thumbs.db
+.idea/
+*.swp
+*.swo
+
+# Testing
+coverage/
